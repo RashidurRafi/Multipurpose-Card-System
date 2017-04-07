@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Monoton;
+    src: url(fonts/Monoton-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poiret;
+    src: url(fonts/PoiretOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Hairline.ttf);
+}
+
+body
+{
+	background-color: #F1F1F1;
+}
+
+.col-md-6
+{
+	margin-top: 2%;
+	//border: 1px solid red;
+	
+}
+
+.col-md-3
+{
+	//border: 1px solid red;
+}
+
+.col-md-6
+{
+	padding-top: 2%;
+	//border: 1px solid black;
+	background-color: white;
+}
+
+
+image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background-color: #22313F;
+	color: white;
+    padding: 100px 0;
+}
+
+.image-bg-fixed-height {
+	background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    height: 450px;
+}
+
+.image-bg-fluid-height > h1
+{
+	text-align: center;
+	font-family: Monoton;
+}
+
+.image-bg-fluid-height > h3 
+{
+	text-align: center;
+	font-family: Poiret;
+}
+.img-center {
+	margin: 0 auto;
+}
+
+.table
+{
+	//border: 1px solid red;
+	margin-top: 2%;
+}
+
+thead > tr
+{
+	color: white;
+	background-color: #22313F;
+}
